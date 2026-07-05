@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To An Amazing Friend!</title>
+    
+    <!-- This is the CSS section where we style the website -->
+    <style>
+        /* 1. Style the whole page background and text font */
+        body {
+            background-color: #f0f4f8; /* Soft blue-grey background */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333333; /* Dark grey text for easy reading */
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* 2. Style the main content container box */
+        .card {
+            background-color: #ffffff; /* Clean white card */
+            max-width: 500px;
+            width: 100%;
+            padding: 30px;
+            border-radius: 15px; /* Rounded corners */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow look */
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        /* 3. Style the main heading */
+        h1 {
+            color: #2b6cb0; /* Deep blue color */
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        /* 4. Style the paragraph text */
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #4a5568;
+        }
+
+        /* 5. Style the list of memories */
+        ul {
+            list-style-type: none; /* Removes standard bullet points */
+            padding: 0;
+        }
+
+        li {
+            background-color: #e2e8f0; /* Light grey background for items */
+            margin: 10px 0;
+            padding: 12px;
+            border-radius: 8px;
+            font-weight: 500;
+        }
+
+        /* NEW CSS: Styles the music section container */
+        .music-box {
+            margin-top: 25px;
+            padding: 15px;
+            background-color: #ebf8ff; /* Soft blue highlight box */
+            border-radius: 10px;
+            border: 1px dashed #bee3f8;
+        }
+
+        /* NEW CSS: Forces the audio player to fit nicely inside the box */
+        audio {
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        /* 6. Interactive Button Style */
+        .btn {
+            display: inline-block;
+            background-color: #3182ce; /* Bright blue button */
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none; /* Removes underline from link */
+            border-radius: 25px;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: background-color 0.3s; /* Smooth color change */
+        }
+
+        /* Change button color when hovering mouse over it */
+        .btn:hover {
+            background-color: #2b6cb0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- This is the HTML section where the actual content lives -->
+    <div class="card">
+        <h1>Happy Friendship Day! ✨</h1>
+        <p>Hey! We've been through a lot of chapters together, and I'm incredibly grateful that our story evolved into such an awesome friendship. Thanks for always being a great person to look back on memories with.</p>
+        
+        <h3>Our Top 3 Inside Jokes & Memories:</h3>
+        <ul>
+            <li>🍕 That time we ordered food and it took three hours.</li>
+            <li>🚗 The road trip playlist that we both knew all the words to.</li>
+            <li>☕ Our endless debates.</li>
+        </ul>
+
+        <!-- ========================================== -->
+        <!-- MUSIC PLAYER SECTION START                 -->
+        <!-- ========================================== -->
+        <div class="music-box">
+            <h3>🎵 A Song For You</h3>
+            
+            <!-- CHOOSE OPTION A OR OPTION B BELOW: -->
+
+            <!-- OPTION A: If you upload an MP3 file named "song.mp3" to your GitHub repo, keep this line: -->
+            <audio controls>
+                <source src="JayJayy-Mordecai-Mngani-Wami-Jaydecai-.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <!-- OPTION B: If you prefer Spotify/YouTube, DELETE the <audio> tags above and PASTE your copied embed code right here instead. -->
+            
+        </div>
+        <!-- ========================================== -->
+        <!-- MUSIC PLAYER SECTION END                   -->
+        <!-- ========================================== -->
+
+        <!-- This button links to an action, like opening an email or a playlist -->
+        <a href="mailto:yourfriend@email.com" class="btn">Send Me a Message!</a>
+    </div>
+
+</body>
+</html>
